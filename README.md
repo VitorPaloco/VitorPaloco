@@ -1,78 +1,36 @@
-# 👋 Olá, eu sou o Vitor Paloco!
+# Hello there 👋
 
-🎓 Estudante de Tecnologia  
-💻 Desenvolvedor Back-end  
-🚀 Apaixonado por resolver problemas com código
+```php
+<?php
 
----
+class SoftwareEngineer
+{
+    private string $name;
+    private string $role;
+    private array $languagesSpoken;
 
-## 🧠 Sobre mim
+    public function __construct()
+    {
+        $this->name = "Vitor Paloco";
+        $this->role = "Software Engineer";
+        $this->languagesSpoken = ["pt_BR", "en_US"];
+    }
 
-Sou estudante de tecnologia com foco em desenvolvimento **Back-end**, interessado em arquitetura de software, bancos de dados e boas práticas de desenvolvimento.  
-Atualmente estudo e desenvolvo projetos utilizando **Node.js, Java, PHP (Laravel)** e **SQL**, sempre buscando evoluir tecnicamente e construir soluções bem estruturadas.
+    public function sayHi(): void
+    {
+        echo "Thanks for dropping by, hope you find some of my work interesting.";
+    }
+}
 
----
+$me = new SoftwareEngineer();
+$me->sayHi();
+```
 
-## 🛠️ Tecnologias & Ferramentas
+## 🔧 Technologies & Tools
 
-### 💻 Linguagens
-- JavaScript
-- Java
-- PHP
-- SQL
-- Kotlin (Android)
+**Programming Languages:**
 
-### ⚙️ Frameworks & Bibliotecas
-- Node.js
-- Express
-- Laravel
-- Vue.js
-- Android (Room / Jetpack)
-
-### 🗄️ Banco de Dados
-- MySQL
-- PostgreSQL
-- SQLite
-- Room (Android)
-
-### 🔧 Outras Ferramentas
-- Git & GitHub
-- Docker
-- DBeaver
-- Vercel
-- Linux / Windows
-
----
-
-## 📚 Atualmente estudando
-
-- Arquitetura de Software
-- Engenharia de Confiabilidade de Sites (SRE)
-- Estruturas de Dados e Algoritmos
-- Desenvolvimento Mobile com Android (Kotlin)
-- APIs REST e autenticação
-
----
-
-## 📈 Estatísticas do GitHub
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&theme=dark)
-
----
-
-## 📫 Como me encontrar
-
-- 💼 LinkedIn: *adicione aqui*
-- 📧 Email: *adicione aqui*
-- 🌐 Portfólio: *se tiver*
-
----
-
-## 🚀 Objetivo
-
-Buscar aprendizado constante, ganhar experiência prática no mercado e evoluir como desenvolvedor, sempre prezando por código limpo, organização e boas práticas.
-
----
-
-⭐ *Sinta-se à vontade para explorar meus repositórios!*
+![PHP](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
+![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
+![JavaScript](https://img.shields.io/badge/Code-Go-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
+![Low-Code](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
