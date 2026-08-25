@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  
+      <defs>
+        <linearGradient id="professionalHeaderGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+          <stop offset="50%" style="stop-color:#1a252f;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="professionalBodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#0c1220;stop-opacity:1" />
+        </linearGradient>
+        <filter id="professionalShadow" x="-50%" y="-50%" width="200%" height="200%">
+          <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="rgba(0,0,0,0.6)"/>
+        </filter>
+        <filter id="professionalGlow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+          <feMerge> 
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <filter id="subtleGlow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="1" result="glow"/>
+          <feMerge>
+            <feMergeNode in="glow"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <!-- Professional accent line -->
+        <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0" />
+          <stop offset="20%" style="stop-color:#8b5cf6;stop-opacity:1" />
+          <stop offset="80%" style="stop-color:#8b5cf6;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0" />
+        </linearGradient>
+      </defs>
+    
+  
+      <style>
+        /* Enhanced Base Styles with Professional Typography */
+        .terminal-bg { 
+          fill: #0f172a; 
+          stroke: #334155; 
+          stroke-width: 1;
+          filter: drop-shadow(0 8px 25px rgba(0, 0, 0, 0.15));
+        }
+        .terminal-header { 
+          fill: #1e293b; 
+          stroke: #334155; 
+          stroke-width: 1;
+        }
+        .terminal-text { 
+          fill: #f8fafc; 
+          font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Consolas', monospace; 
+          font-size: 20px; 
+          font-weight: 400;
+          text-rendering: optimizeLegibility;
+          letter-spacing: 0.05em;
+        }
+        .terminal-output { 
+          fill: #cbd5e1; 
+          font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Consolas', monospace; 
+          font-size: 20px; 
+          font-weight: 400;
+          text-rendering: optimizeLegibility;
+          letter-spacing: 0.05em;
+        }
+        .terminal-success { 
+          fill: #10b981; 
+          font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Consolas', monospace; 
+          font-size: 20px; 
+          font-weight: 500;
+          
+        }
+        .terminal-warning { 
+          fill: #f59e0b; 
+          font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Consolas', monospace; 
+          font-size: 20px; 
+          font-weight: 500;
+          
+        }
+        .terminal-error { 
+          fill: #ef4444; 
+          font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Consolas', monospace; 
+          font-size: 20px; 
+          font-weight: 500;
+          
+        }
+        .terminal-info { 
+          fill: #3b82f6; 
+          font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Consolas', monospace; 
+          font-size: 20px; 
+          font-weight: 500;
+          
+        }
+        .terminal-title { 
+          fill: #f8fafc; 
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif; 
+          font-size: 18px; 
+          font-weight: 600;
+          letter-spacing: 0.025em;
+        }
+        .terminal-cursor { 
+          fill: #f8fafc; 
+          opacity: 1;
+        }
+        .terminal-prompt { 
+          fill: #8b5cf6; 
+          font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', 'Menlo', 'Consolas', monospace; 
+          font-size: 20px; 
+          font-weight: 600;
+        }
+        
+        /* Enhanced Control Styles */
+        .close { fill: #ff5f57; stroke: #e0443e; stroke-width: 0.5; }
+        .minimize { fill: #ffbd2e; stroke: #dea123; stroke-width: 0.5; }
+        .maximize { fill: #28ca42; stroke: #1aad2f; stroke-width: 0.5; }
+        
+        /* Professional Theme-specific Effects */
+        
+        
+        
+        
+        
+        
+        
+          .terminal-bg { 
+            filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+          }
+          .terminal-text {
+            font-weight: 450;
+          }
+        
+        
+        /* Enhanced Cursor Animation */
+        .cursor-blink {
+          animation: blink 1.2s ease-in-out infinite;
+        }
+        @keyframes blink {
+          0%, 45% { opacity: 1; }
+          50%, 95% { opacity: 0.3; }
+          100% { opacity: 1; }
+        }
+        
+        /* Smooth Animations */
+        text {
+          transition: all 0.2s ease-in-out;
+        }
+        
+        /* Accessibility Improvements */
+        
+      </style>
+    
+  
+  <!-- Terminal container with professional depth -->
+  <rect x="0" y="0" width="1200" height="600" rx="12" ry="12" 
+        class="terminal-bg" filter="url(#professionalShadow)"/>
+  
+  
+  <!-- Professional header with corporate styling -->
+  <rect x="0" y="0" width="1200" height="44" rx="12" ry="12" 
+        fill="url(#professionalHeaderGradient)" stroke="#334155" stroke-width="0.5"/>
+  <rect x="0" y="32" width="1200" height="12" fill="url(#professionalHeaderGradient)"/>
+  
+  <!-- Corporate-style window controls -->
+  <g class="terminal-controls">
+    <circle cx="22" cy="22" r="7" class="close" filter="url(#subtleGlow)"/>
+    <circle cx="48" cy="22" r="7" class="minimize" filter="url(#subtleGlow)"/>
+    <circle cx="74" cy="22" r="7" class="maximize" filter="url(#subtleGlow)"/>
+    
+    <!-- Professional control icons -->
+    <g opacity="0.9">
+      <path d="M18,18 L26,26 M26,18 L18,26" stroke="#2d1a1a" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="44" y1="22" x2="52" y2="22" stroke="#2d2600" stroke-width="1.5" stroke-linecap="round"/>
+      <rect x="70" y="18" width="8" height="8" fill="none" stroke="#1a2d1a" stroke-width="1.5" rx="1.5"/>
+      <rect x="72" y="16" width="6" height="6" fill="none" stroke="#1a2d1a" stroke-width="1" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Professional title with enhanced typography -->
+  <text x="600" y="28" text-anchor="middle" class="terminal-title" 
+        style="font-size: 18px; font-weight: 600; letter-spacing: 0.5px; opacity: 0.95;">
+    Terminal
+  </text>
+  
+  <!-- Professional accent line -->
+  <rect x="32" y="42" width="1136" height="2" fill="url(#accentLine)" opacity="0.8"/>
+  
+  
+  <!-- Professional content area with subtle texture -->
+  <rect x="8" y="46" width="1184" height="546" 
+        fill="url(#professionalBodyGradient)" rx="10" ry="10" opacity="0.98"/>
+  
+  <!-- Command animations with professional spacing -->
+  
+  <text x="26" y="86" class="terminal-text"><tspan opacity="0">$<animate attributeName="opacity" values="0;1" dur="0.03s" begin="-0.0008117341878993625s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.05165337584347118s" fill="freeze"/></tspan><tspan opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.105653918170552s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.14942326104184767s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.1917251650135488s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.24232638943285717s" fill="freeze"/></tspan><tspan opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.30078647495956873s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.3416734802978273s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.3947439590447165s" fill="freeze"/></tspan><tspan opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.44172978937591567s" fill="freeze"/></tspan><tspan opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.5033004105150737s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.5496110791631211s" fill="freeze"/></tspan><tspan opacity="0">h<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.6069669652738386s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.654556992282042s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.6908182487729956s" fill="freeze"/></tspan><tspan opacity="0">p<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.7437104573783045s" fill="freeze"/></tspan><tspan opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.8009230153154855s" fill="freeze"/></tspan><tspan opacity="0">:<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.8417531530826109s" fill="freeze"/></tspan><tspan opacity="0">/<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.8961081214580706s" fill="freeze"/></tspan><tspan opacity="0">/<animate attributeName="opacity" values="0;1" dur="0.03s" begin="0.9522408241493843s" fill="freeze"/></tspan><tspan opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.0073173767273709s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.044591671771243s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.1034880216027374s" fill="freeze"/></tspan><tspan opacity="0">h<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.157849479784239s" fill="freeze"/></tspan><tspan opacity="0">u<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.1918741330423535s" fill="freeze"/></tspan><tspan opacity="0">b<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.2453109042392578s" fill="freeze"/></tspan><tspan opacity="0">.<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.2977587037466765s" fill="freeze"/></tspan><tspan opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.3436327530331125s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.404033296094862s" fill="freeze"/></tspan><tspan opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.4502075794289702s" fill="freeze"/></tspan><tspan opacity="0">/<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.4959283005717494s" fill="freeze"/></tspan><tspan opacity="0">V<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.5549331413808032s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.5997754968134206s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.651184945825299s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.701798192011725s" fill="freeze"/></tspan><tspan opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.749046164563804s" fill="freeze"/></tspan><tspan opacity="0">P<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.809046888565736s" fill="freeze"/></tspan><tspan opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.8567745121446333s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.9054613468108368s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.9564029902465832s" fill="freeze"/></tspan><tspan opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.03s" begin="1.995176392405443s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.0478269528559854s" fill="freeze"/></tspan><tspan opacity="0">/<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.1054176685513024s" fill="freeze"/></tspan><tspan opacity="0">V<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.1406205693495184s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.1987606518207534s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.2598172009967183s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.300889935558062s" fill="freeze"/></tspan><tspan opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.351326732395335s" fill="freeze"/></tspan><tspan opacity="0">P<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.394707360638943s" fill="freeze"/></tspan><tspan opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.4550167379952095s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.493107578416288s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.556819026923943s" fill="freeze"/></tspan><tspan opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.5942779392591895s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.6546083864146874s" fill="freeze"/></tspan><tspan opacity="0">.<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.7038491230967967s" fill="freeze"/></tspan><tspan opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.7508404362339194s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.8053571271811633s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="2.843601592483842s" fill="freeze"/></tspan>
+  </text>
+  <text x="26" y="124" class="terminal-output" opacity="0">
+    Cloning into &#39;VitorPaloco&#39;...
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.1s" 
+             begin="3.4s" 
+             fill="freeze"/>
+  </text>
+  <text x="26" y="160" class="terminal-output" opacity="0">
+    remote: Enumerating objects: 247, done.
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.1s" 
+             begin="4.1s" 
+             fill="freeze"/>
+  </text>
+  <text x="26" y="196" class="terminal-output" opacity="0">
+    remote: Counting objects: 100% (247/247), done.
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.1s" 
+             begin="4.6s" 
+             fill="freeze"/>
+  </text>
+  <text x="26" y="232" class="terminal-output" opacity="0">
+    remote: Compressing objects: 100% (156/156), done.
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.1s" 
+             begin="5.1s" 
+             fill="freeze"/>
+  </text>
+  <text x="26" y="268" class="terminal-success" opacity="0">
+    Receiving objects: 100% (247/247), 1.2 MiB | 2.3 MiB/s, done.
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.1s" 
+             begin="6.1s" 
+             fill="freeze"/>
+  </text>
+  <text x="26" y="304" class="terminal-success" opacity="0">
+    Resolving deltas: 100% (89/89), done.
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.1s" 
+             begin="6.6s" 
+             fill="freeze"/>
+  </text>
+  <text x="26" y="360" class="terminal-text"><tspan opacity="0">$<animate attributeName="opacity" values="0;1" dur="0.03s" begin="6.905620899623952s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="6.950172310880151s" fill="freeze"/></tspan><tspan opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.008056964007232s" fill="freeze"/></tspan><tspan opacity="0">d<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.058620261058796s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.098209043446866s" fill="freeze"/></tspan><tspan opacity="0">V<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.143814846794759s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.203650016705485s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.2588837991641055s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.295333814875186s" fill="freeze"/></tspan><tspan opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.35884767834752s" fill="freeze"/></tspan><tspan opacity="0">P<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.403293202213344s" fill="freeze"/></tspan><tspan opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.458783644838593s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.503661484611977s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.557017077276339s" fill="freeze"/></tspan><tspan opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.599242482197061s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="7.653769984542064s" fill="freeze"/></tspan>
+  </text>
+  <text x="26" y="418" class="terminal-text"><tspan opacity="0">$<animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.404725288101146s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.459830634462985s" fill="freeze"/></tspan><tspan opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.499631209922136s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.547353703609637s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.592875714317493s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.656057400027327s" fill="freeze"/></tspan><tspan opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.707920856588922s" fill="freeze"/></tspan><tspan opacity="0">d<animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.756430911968751s" fill="freeze"/></tspan><tspan opacity="0">d<animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.799100273282093s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.852312725146222s" fill="freeze"/></tspan><tspan opacity="0">.<animate attributeName="opacity" values="0;1" dur="0.03s" begin="8.909248544370726s" fill="freeze"/></tspan>
+  </text>
+  <text x="26" y="492" class="terminal-text"><tspan opacity="0">$<animate attributeName="opacity" values="0;1" dur="0.03s" begin="9.658481374106266s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="9.70038585743436s" fill="freeze"/></tspan><tspan opacity="0">g<animate attributeName="opacity" values="0;1" dur="0.03s" begin="9.744926710943119s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="9.79382999788016s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="9.845999634887644s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="9.90496850671557s" fill="freeze"/></tspan><tspan opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.03s" begin="9.958188927429815s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="9.997550933881993s" fill="freeze"/></tspan><tspan opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.055749040263533s" fill="freeze"/></tspan><tspan opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.097209491631684s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.143668882205676s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.193118584950753s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.252536081461402s" fill="freeze"/></tspan><tspan opacity="0">-<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.295952238549246s" fill="freeze"/></tspan><tspan opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.347496432547423s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.406429526224104s" fill="freeze"/></tspan><tspan opacity="0">&#39;<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.45514267754202s" fill="freeze"/></tspan><tspan opacity="0">H<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.500901872143897s" fill="freeze"/></tspan><tspan opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.54812267584379s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.602452851413648s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.654651048808194s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.69268921619751s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.755655921264609s" fill="freeze"/></tspan><tspan opacity="0">W<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.798647652908459s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.852176919551892s" fill="freeze"/></tspan><tspan opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.89385716621017s" fill="freeze"/></tspan><tspan opacity="0">d<animate attributeName="opacity" values="0;1" dur="0.03s" begin="10.958626919434705s" fill="freeze"/></tspan><tspan opacity="0">!<animate attributeName="opacity" values="0;1" dur="0.03s" begin="11.006537082312834s" fill="freeze"/></tspan><tspan opacity="0">&#39;<animate attributeName="opacity" values="0;1" dur="0.03s" begin="11.054433602141222s" fill="freeze"/></tspan>
+  </text>
+  <text x="26" y="530" class="terminal-success" opacity="0">
+    [main 97ec9f3] Hello Word!
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.1s" 
+             begin="11.8s" 
+             fill="freeze"/>
+  </text>
+  <text x="26" y="566" class="terminal-output" opacity="0">
+     3 files changed, 42 insertions(+), 8 deletions(-)
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.1s" 
+             begin="12.100000000000001s" 
+             fill="freeze"/>
+  </text>
+  
+  <!-- Professional cursor with subtle glow -->
+  
+  <rect x="50" y="604" width="2" height="22" 
+        class="terminal-cursor cursor-blink" filter="url(#professionalGlow)" rx="1"/>
+  
+  
+  <!-- Professional border highlighting -->
+  <rect x="1" y="1" width="1198" height="598" rx="11" ry="11" 
+        fill="none" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="1199" height="599" rx="11.5" ry="11.5" 
+        fill="none" stroke="rgba(248,250,252,0.1)" stroke-width="0.5"/>
+</svg>
