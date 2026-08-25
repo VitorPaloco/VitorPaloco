@@ -1,4 +1,4 @@
-<img src="https://waveify.onrender.com/api/terminal?commands=git+clone+https%3A%2F%2Fgithub.com%2FVitorPaloco%2FVitorPaloco.git%2Ccd+VitorPaloco%2Cgit+add+.%2Cgit+commit+-m+%22Hello+Word%21%22&theme=github-dark&speed=60&cursor=true&prompt=%24+&width=1200&height=400&fontSize=16&showHeader=true&title=Git+Workflow&githubMode=true&windowStyle=mac&glowEffect=false&borderRadius=8&lineHeight=1.8" alt="Terminal Demo">
+![CMD1](./assets/cmd1.svg)
 
 ## 🤔 Who am I?
 
@@ -68,4 +68,4 @@ Django + Python          [exploring]
 
 <br>
 
-<img src="https://waveify.onrender.com/api/terminal?commands=git+push+origin+main&theme=github-dark&speed=50&cursor=true&prompt=%24+&width=1200&height=300&fontSize=16&showHeader=true&title=Terminal&githubMode=false&commandType=auto" alt="Terminal Demo">
+![CMD2](./assets/cmd2.svg)
