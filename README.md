@@ -49,6 +49,10 @@ $me->sayHi();
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vitorpaloco/vitorpaloco/output/github-contribution-grid-snake.svg">
 </picture>
 
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-stats-organization-github-readme-stats.svg)
+
 <br>
 <br>
 
