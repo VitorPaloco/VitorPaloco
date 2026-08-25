@@ -1,6 +1,4 @@
-<div align="center">
-
-![Header](./assets/header.png)
+![Terminal Demo](https://waveify.onrender.com/api/terminal?commands=npm+install%2Cnpm+run+dev%2Cecho+%22Hello+World%22&theme=modern&speed=50&cursor=true&prompt=%24+&width=800&height=400&fontSize=14&showHeader=true&title=Terminal&githubMode=false&commandType=auto)
 
 <div align="left">
 
