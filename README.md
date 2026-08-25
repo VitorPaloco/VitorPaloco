@@ -1,9 +1,6 @@
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=vitorpaloco&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/hero?username=vitorpaloco&theme=github-dark" alt="vitorpaloco hero section" />
-  </picture>
-</p>
+<div align="center">
+
+![Header](./assets/header.png)
 
 <div align="left">
 
@@ -145,6 +142,13 @@ Django + Python          [exploring]
 │                                                              │
 ╰──────────────────────────────────────────────────────────────╯
 ```
+
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=vitorpaloco&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=vitorpaloco&theme=github-dark" alt="vitorpaloco hero section" />
+  </picture>
+</p>
 
 <br>
 
