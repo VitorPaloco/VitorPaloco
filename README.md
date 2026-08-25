@@ -7,10 +7,6 @@
 
 <div align="left">
 
-<br>
-
----
-
 <h2><code>vitor@github:~$ whoami</code></h2>
 
 ```php
