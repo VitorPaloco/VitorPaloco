@@ -1,8 +1,6 @@
-![Terminal Demo](https://waveify.onrender.com/api/terminal?commands=npm+install%2Cnpm+run+dev%2Cecho+%22Hello+World%22&theme=modern&speed=50&cursor=true&prompt=%24+&width=800&height=400&fontSize=14&showHeader=true&title=Terminal&githubMode=false&commandType=auto)
+<img src="https://waveify.onrender.com/api/terminal?commands=git+clone+https%3A%2F%2Fgithub.com%2FVitorPaloco%2FVitorPaloco.git%2Ccd+VitorPaloco%2Cgit+add+.%2Cgit+commit+-m+%22Hello+Word%21%22&theme=github-dark&speed=60&cursor=true&prompt=%24+&width=1200&height=400&fontSize=16&showHeader=true&title=Git+Workflow&githubMode=true&windowStyle=mac&glowEffect=false&borderRadius=8&lineHeight=1.8" alt="Terminal Demo">
 
-<div align="left">
-
-<h2><code>vitor@github:~$ whoami</code></h2>
+## 🤔 Who am I?
 
 ```php
 <?php
@@ -36,26 +34,7 @@ $me = new SoftwareEngineer();
 $me->sayHi();
 ```
 
-<div align="left">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vitorpaloco/vitorpaloco/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vitorpaloco/vitorpaloco/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vitorpaloco/vitorpaloco/output/github-contribution-grid-snake.svg">
-</picture>
-
-![Stats](./profile/stats.svg)
-![Top Languages](./profile/top-langs.svg)
-![Pinned](./profile/pin-stats-organization-github-readme-stats.svg)
-
-<br>
-<br>
-
-<h2><code>vitor@github:~$ cat /etc/technologies</code></h2>
-
-<br>
-
-## 🔧 Technologies & Tools
+## ⚙️ Technologies & Tools
 
 | Category                    | Skills                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,39 +47,7 @@ $me->sayHi();
 
 <br>
 
-<h2><code>vitor@github:~$ python interests.py</code></h2>
-
-```python
-#!/usr/bin/env python3
-
-interests = {
-    "web": [
-        "Web Development",
-        "Backend Architecture",
-    ],
-
-    "automation": [
-        "Process Automation",
-        "APIs & Integrations",
-    ],
-
-    "infrastructure": [
-        "Servers",
-        "Containers",
-        "Cloud",
-    ],
-}
-
-for category, topics in interests.items():
-    print(f"\n[{category.upper()}]")
-
-    for topic in topics:
-        print(f"  → {topic}")
-```
-
-<br>
-
-<h2><code>vitor@github:~$ cat current.py</code></h2>
+## 📚 Learning
 
 ```python
 current = {
@@ -121,35 +68,4 @@ Django + Python          [exploring]
 
 <br>
 
----
-
-<div align="center">
-
-```text
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│   vitor@github:~$ ./deploy.sh                               │
-│                                                              │
-│   [████████████████████████████████████████] 100%            │
-│                                                              │
-│   ✓ Build complete                                           │
-│   ✓ Tests passed                                             │
-│   ✓ Deployment successful                                    │
-│                                                              │
-│   vitor@github:~$ █                                          │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
-```
-
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=vitorpaloco&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/hero?username=vitorpaloco&theme=github-dark" alt="vitorpaloco hero section" />
-  </picture>
-</p>
-
-<br>
-
-<sub>Built with code, curiosity and too much coffee.</sub>
-
-</div>
+<img src="https://waveify.onrender.com/api/terminal?commands=git+push+origin+main&theme=github-dark&speed=50&cursor=true&prompt=%24+&width=1200&height=300&fontSize=16&showHeader=true&title=Terminal&githubMode=false&commandType=auto" alt="Terminal Demo">
