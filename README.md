@@ -30,8 +30,8 @@ $me->sayHi();
 ## ⚙️ Technologies & Tools
 
 <p align="center"> 
-    <img src="https://github-widgetbox.vercel.app/api/skills?languages=php,python,javascript,typescript,postgresql,mysql&includeNames=true&theme=darkmode" height="240" /> &nbsp;&nbsp;&nbsp; 
-    <img src="https://github-widgetbox.vercel.app/api/skills?frameworks=laravel,django,react,vue,tailwind&includeNames=true&theme=darkmode" height="240" /> 
+    <img src="https://github-widgetbox.vercel.app/api/skills?languages=php,python,javascript,typescript,postgresql,mysql&includeNames=true&theme=darkmode" height="200" /> &nbsp;&nbsp;&nbsp; 
+    <img src="https://github-widgetbox.vercel.app/api/skills?frameworks=laravel,django,react,vue,tailwind&includeNames=true&theme=darkmode" height="200" /> 
 </p>
 
 <br>
