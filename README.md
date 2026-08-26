@@ -196,8 +196,11 @@ Django + Python          [exploring]
 ```
 
 <br>
+<br>
 
 ![CMD2](./assets/cmd2.svg)
+
+<br>
 
 <p align="center">
   <a href="https://linkedin.com/in/vitor-paloco">
