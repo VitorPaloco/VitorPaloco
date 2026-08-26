@@ -27,6 +27,19 @@ $me = new SoftwareEngineer();
 $me->sayHi();
 ```
 
+## ⚙️ Technologies & Tools
+
+| Category                    | Skills                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Languages**               | <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>                                                                                                                |
+| **Frontend**                | <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro"/>                                                                                                       |
+| **Backend**                 | <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>                                                                                                                                                                                                                                  |
+| **Database**                | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/> <img src="https://img.shields.io/badge/SAP_HANA-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP HANA"/>                                                                                                         |
+| **DevOps & Infrastructure** | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/> <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox"/> |
+| **Automation & Services**   | <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/> <img src="https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP"/> <img src="https://img.shields.io/badge/Low--Code-111111?style=for-the-badge" alt="Low-Code"/>                                                                                                                                                            |
+
+<br>
+
 ## 🛠️ Tech Stack
 
 Frameworks             |  Language
@@ -234,20 +247,143 @@ Frameworks             |  Language
   </tr>
 </table>
 
-## ⚙️ Technologies & Tools
-
-| Category                    | Skills                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Languages**               | <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>                                                                                                                |
-| **Frontend**                | <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro"/>                                                                                                       |
-| **Backend**                 | <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>                                                                                                                                                                                                                                  |
-| **Database**                | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/> <img src="https://img.shields.io/badge/SAP_HANA-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP HANA"/>                                                                                                         |
-| **DevOps & Infrastructure** | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/> <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox"/> |
-| **Automation & Services**   | <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/> <img src="https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP"/> <img src="https://img.shields.io/badge/Low--Code-111111?style=for-the-badge" alt="Low-Code"/>                                                                                                                                                            |
-
 <br>
 
+<h2 align="center">Tools</h2>
 
+<table width="100%">
+  <tr>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 01">
+      </a>
+      <br>
+      <strong>Tool 01</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 02">
+      </a>
+      <br>
+      <strong>Tool 02</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 03">
+      </a>
+      <br>
+      <strong>Tool 03</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 04">
+      </a>
+      <br>
+      <strong>Tool 04</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 05">
+      </a>
+      <br>
+      <strong>Tool 05</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 06">
+      </a>
+      <br>
+      <strong>Tool 06</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 07">
+      </a>
+      <br>
+      <strong>Tool 07</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 08">
+      </a>
+      <br>
+      <strong>Tool 08</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 09">
+      </a>
+      <br>
+      <strong>Tool 09</strong>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 10">
+      </a>
+      <br>
+      <strong>Tool 10</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 11">
+      </a>
+      <br>
+      <strong>Tool 11</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 12">
+      </a>
+      <br>
+      <strong>Tool 12</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 13">
+      </a>
+      <br>
+      <strong>Tool 13</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 14">
+      </a>
+      <br>
+      <strong>Tool 14</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 15">
+      </a>
+      <br>
+      <strong>Tool 15</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 16">
+      </a>
+      <br>
+      <strong>Tool 16</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 17">
+      </a>
+      <br>
+      <strong>Tool 17</strong>
+    </td>
+    <td width="11.11%" align="center">
+      <a href="#">
+        <img width="48" height="48" src="https://thesvg.org/icons/docker/default.svg" alt="Tool 18">
+      </a>
+      <br>
+      <strong>Tool 18</strong>
+    </td>
+  </tr>
+</table>
 
 ## 📚 Learning
 
@@ -270,10 +406,24 @@ Django + Python          [exploring]
 
 <br>
 
-[![@vitor-paloco](https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Flinkedin.com%2Fin%2Fvitor-paloco&subtitle=%40vitor-paloco&size=wide)](https://linkedin.com/in/vitor-paloco)
-[![https://vitorpaloco.com](https://bentos.jkominovic.dev/api/v1/generic-card?icon=siGooglechrome&subtitle=https%3A%2F%2Fvitorpaloco.com&size=wide)]([https://bentos.jkominovic.dev/api/v1/generic-card?icon=siGooglechrome&subtitle=https%3A%2F%2Fvitorpaloco.com&size=wide](https://vitorpaloco.com))
-[![vpaloco.contato@gmail.com](https://bentos.jkominovic.dev/api/v1/bento-cards?url=vpaloco.contato%40gmail.com&subtitle=vpaloco.contato%40gmail.com&size=square)](vpaloco.contato@gmail.com)
-
-<br>
-
 ![CMD2](./assets/cmd2.svg)
+
+<table>
+  <tr>
+    <td width="33.33%" align="center">
+      <a href="https://linkedin.com/in/vitor-paloco">
+        <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Flinkedin.com%2Fin%2Fvitor-paloco&subtitle=%40vitor-paloco&size=wide" width="100%" alt="@vitor-paloco">
+      </a>
+    </td>
+    <td width="33.33%" align="center">
+      <a href="https://vitorpaloco.com">
+        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siGooglechrome&subtitle=https%3A%2F%2Fvitorpaloco.com&size=wide" width="100%" alt="vitorpaloco.com">
+      </a>
+    </td>
+    <td width="33.33%" align="center">
+      <a href="mailto:vpaloco.contato@gmail.com">
+        <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=vpaloco.contato%40gmail.com&subtitle=vpaloco.contato%40gmail.com&size=wide" width="100%" alt="vpaloco.contato@gmail.com">
+      </a>
+    </td>
+  </tr>
+</table>
